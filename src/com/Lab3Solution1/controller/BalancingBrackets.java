@@ -8,10 +8,10 @@ public class BalancingBrackets{
         String inputBalanced =   "( [ [ { } ] ] )";
 
         if(checkBalancedBrackets(inputUnBalanced)){
-            System.out.println("Balanceed Brackets");
+            System.out.println("The entered String has Balanced Brackets");
         }
         else{
-            System.out.println("Unbalanced Brackets");
+            System.out.println("The entered Strings do not contain Balanced Brackets");
         }
     }
 
