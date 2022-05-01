@@ -4,10 +4,10 @@ import java.util.Stack;
 
 public class BalancingBrackets{
     public static void main(String[] args) {
-        String inputUnBalanced = "( [ [ { } ] ] ) )";
-        String inputBalanced =   "( [ [ { } ] ] )";
+        String input = "( [ [ { } ] ] ) )";
+        //"( [ [ { } ] ] )" e.g. balanced
 
-        if(checkBalancedBrackets(inputUnBalanced)){
+        if(checkBalancedBrackets(input)){
             System.out.println("The entered String has Balanced Brackets");
         }
         else{
